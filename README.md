@@ -1,8 +1,8 @@
 # SQL 스크립트 아카이브
 
-이 리포지토리는 다양한 프로젝트에서 사용된 SQL 스크립트를 아카이빙하기 위한 것입니다. 
-실제 프로젝트에 사용된 테이블명, 컬럼명과의 차이가 있으며 쿼리를 작성하면서 겪은 어려움과 문제를 해결에 대한 회고를 목적으로 생성하였습니다.
-아래 가이드라인은 SQL 스크립트 관리, 보안 대한 내용을 설명합니다.
+이 리포지토리는 다양한 프로젝트에서 사용된 SQL 스크립트를 아카이빙하기 위한 것입니다.   
+실제 프로젝트에 사용된 테이블명, 컬럼명과의 차이가 있으며 쿼리를 작성하면서 겪은 어려움과 문제를 해결에 대한 회고를 목적으로 생성하였습니다.   
+아래 가이드라인은 SQL 스크립트 관리, 보안 대한 내용을 설명합니다.   
 
 ## 목차
 
@@ -12,19 +12,19 @@
 ## 리포지토리 구조
 
 일관성과 가독성을 유지하기 위해 리포지토리를 다음과 같은 구조로 구성합니다:
-sql-scripts-archive/
-├── README.md
-├── project1/
-│ ├── create_tables.sql
-│ ├── insert_data.sql
-│ └── update_schema.sql
-├── project2/
-│ ├── init_db.sql
-│ ├── data_migration.sql
-│ └── clean_up.sql
-└── common/
-├── functions.sql
-└── triggers.sql
+sql-scripts-archive/     
+├── README.md      
+├── project1/    
+│ ├── create_tables.sql    
+│ ├── insert_data.sql    
+│ └── update_schema.sql    
+├── project2/    
+│ ├── init_db.sql    
+│ ├── data_migration.sql    
+│ └── clean_up.sql    
+└── common/    
+├── functions.sql    
+└── triggers.sql    
 
 ## 보안 지침
 1. **개인정보나 민감한 정보를 스크립트에 포함시키지 않습니다.**
