@@ -13,7 +13,7 @@
 
 일관성과 가독성을 유지하기 위해 리포지토리를 다음과 같은 구조로 구성합니다:
 sql-scripts-archive/     
-| README.md      
+├── README.md      
 | project1/    
 || create_tables.sql    
 || insert_data.sql    
