@@ -13,18 +13,18 @@
 
 일관성과 가독성을 유지하기 위해 리포지토리를 다음과 같은 구조로 구성합니다:
 sql-scripts-archive/     
-├── README.md      
-├── project1/    
-│ ├── create_tables.sql    
-│ ├── insert_data.sql    
-│ └── update_schema.sql    
-├── project2/    
-│ ├── init_db.sql    
-│ ├── data_migration.sql    
-│ └── clean_up.sql    
-└── common/    
-├── functions.sql    
-└── triggers.sql    
+| README.md      
+| project1/    
+|| create_tables.sql    
+|| insert_data.sql    
+|| update_schema.sql    
+| project2/    
+|| init_db.sql    
+|| data_migration.sql    
+|| clean_up.sql    
+| common/    
+||functions.sql    
+|| triggers.sql    
 
 ## 보안 지침
 1. **개인정보나 민감한 정보를 스크립트에 포함시키지 않습니다.**
